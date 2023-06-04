@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>All Countries</title>
+        <!-- google fonts link -->
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+
+        <!-- tailwind css -->
+        <script src="https://cdn.tailwindcss.com"></script>
+        <script>
+            tailwind.config = {
+                theme: {
+                    extend: {
+                        colors: {
+                            clifford: "#da373d",
+                        },
+                    },
+                },
+            };
+        </script>
+
+        <!-- style css -->
+        <link rel="stylesheet" href="css/style.css" />
+    </head>
+    <body>
+        <section class="main">
+            <div class="sidebar">
+                <h1>All Countries</h1>
+                <div id="country_name" class="pt-28 px-7">Lorem ipsum dolor sit amet.</div>
+            </div>
+            <div class="country_details"></div>
+        </section>
+
+        <!-- script -->
+        <script src="js/tailwind.config.js"></script>
+        <script src="js/countries.js"></script>
+    </body>
+</html>

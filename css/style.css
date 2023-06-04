@@ -1,0 +1,66 @@
+/* common css start */
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    color: #131321;
+    font-size: 16px;
+}
+h1 {
+    font-family: "Dancing Script", cursive;
+}
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Roboto", sans-serif;
+}
+h1 {
+    font-size: 50px !important;
+}
+h2 {
+    font-size: 40px !important;
+}
+h3 {
+    font-size: 30px !important;
+}
+h4 {
+    font-size: 20px !important;
+}
+h5 {
+    font-size: 18px !important;
+}
+h6 {
+    font-size: 16px !important;
+}
+/* common css end */
+
+/* main css start */
+.main .sidebar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 25%;
+    height: 100%;
+    background: #eaeaea;
+    overflow: scroll;
+    -webkit-overflow-scrolling: touch;
+}
+.main .sidebar h1 {
+    position: fixed;
+    background: #131321;
+    color: #fff;
+    padding: 10px 30px;
+}
+.main .country_details {
+    position: fixed;
+    left: 25%;
+    top: 0;
+    width: 75%;
+    height: 100vh;
+}
+/* main css end */
