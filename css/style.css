@@ -18,6 +18,7 @@ h4,
 h5,
 h6 {
     font-family: "Roboto", sans-serif;
+    font-weight: 700 !important;
 }
 h1 {
     font-size: 50px !important;
@@ -26,7 +27,7 @@ h2 {
     font-size: 40px !important;
 }
 h3 {
-    font-size: 30px !important;
+    font-size: 26px !important;
 }
 h4 {
     font-size: 20px !important;
@@ -37,6 +38,12 @@ h5 {
 h6 {
     font-size: 16px !important;
 }
+button {
+    padding: 12px 20px;
+    background: rgb(32, 22, 58);
+    color: #58db93;
+    font-weight: 700;
+}
 /* common css end */
 
 /* main css start */
@@ -44,7 +51,7 @@ h6 {
     position: fixed;
     left: 0;
     top: 0;
-    width: 25%;
+    width: 35%;
     height: 100%;
     background: #eaeaea;
     overflow: scroll;
@@ -55,12 +62,23 @@ h6 {
     background: #131321;
     color: #fff;
     padding: 10px 30px;
+    top: 0;
+    left: 50px;
 }
 .main .country_details {
     position: fixed;
-    left: 25%;
+    left: 65%;
     top: 0;
     width: 75%;
     height: 100vh;
 }
 /* main css end */
+
+/* country css start */
+.country {
+    width: 100%;
+    padding: 30px;
+    background: #bccfff;
+    margin-bottom: 15px;
+}
+/* country css end */
